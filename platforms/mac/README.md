@@ -7,7 +7,7 @@ First, follow the [WSL Setup Guide](../linux/README.md).
 Use Homebrew to install the necessary applications:
 
 ```sh
-brew install --cask visual-studio-code raycast hammerspoon docker microsoft-edge
+brew install --cask visual-studio-code raycast hammerspoon docker google-chrome
 ```
 
 ### Link Configuration Files
