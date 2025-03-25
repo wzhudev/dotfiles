@@ -111,11 +111,14 @@ alias ls="eza -lh --group-directories-first --icons"
 alias lsa="ls -a"
 alias lt="eza --tree --level=2 --long --icons --git"
 alias lta="lt -a"
+alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
+alias fd="fdfind"
 alias lg="lazygit"
-alias ld="lazydocker"
 alias c="code"
+alias ci="code-insiders"
 alias cd="z"
-
+alias gfa="git fetch --all"
+alias ld="lazydocker"
 alias resource="source ~/.zshrc"
 
 function proxy() {
@@ -138,6 +141,7 @@ function unproxy() {
   unset http_proxy
 }
 
+eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
 eval "$(mise activate zsh)"
 eval "$(starship init zsh)"
