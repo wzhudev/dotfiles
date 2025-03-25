@@ -1,16 +1,8 @@
 return {
   {
-    "folke/tokyonight.nvim",
-    lazy = true,
+    "LazyVim/LazyVim",
     opts = {
-      style = "night",
-      transparent = true,
-      styles = {
-        comments = { italic = false },
-        keywords = { italic = false },
-        sidebars = "transparent", -- style for sidebars, see below
-        floats = "transparent", -- style for floating windows
-      },
+      colorscheme = "catppuccin",
     },
-  },
+  }
 }
