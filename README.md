@@ -2,7 +2,6 @@
 
 This repository contains my configurations for WSL and macOS, designed to create efficient development environments for _practical minimalists_ like myself.
 
-
 ## Introduction
 
 ### OS
