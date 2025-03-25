@@ -27,7 +27,7 @@ And add Homebrew to the .zshrc file.
 Use Homebrew to install the required terminal applications:
 
 ```bash
-brew install zoxide eza gh lazygit lazydocker mise starship stow
+brew install zoxide eza fzf gh lazygit lazydocker mise starship tree cloc stow bat
 brew install zsh-syntax-highlighting zsh-autosuggestions
 ```  
 
@@ -46,7 +46,9 @@ Copy and link configuration files:
 ```bash  
 cp ~/.dotfiles/config/git.gitconfig ~/.gitconfig
 
-stow mise vim starship
+stow tmux nvim mise vim starship
+
+conda config --set changeps1 False
 ```  
 
 ### Update `.zshrc`

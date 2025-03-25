@@ -15,6 +15,16 @@ Additionally, install the following applications to enhance usability (not direc
 
 ## Configuration
 
+### Windows Terminal
+
+After installing all necessary applications, update the `command` for the Ubuntu profile to:
+
+```powershell  
+wsl.exe ~ -d Ubuntu -- tmux  
+```  
+
+This will open the terminal with `tmux` running by default.  
+
 ### WSL
 
 Place the [.wslconfig](./.wslconfig) file in your home directory. For reference, see this [documentation](https://github.com/microsoft/WSL/issues/10753#issuecomment-1814839310).
