@@ -27,7 +27,7 @@ And add Homebrew to the .zshrc file.
 Use Homebrew to install the required terminal applications:
 
 ```bash
-brew install zoxide eza fzf gh lazygit lazydocker mise starship tree cloc stow bat
+brew install zoxide eza fzf gh lazygit lazydocker mise starship tree cloc stow bat uv
 brew install zsh-syntax-highlighting zsh-autosuggestions
 ```  
 
