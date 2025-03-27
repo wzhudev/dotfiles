@@ -24,7 +24,7 @@ Some of my tools include:
 - [**stow**](https://www.gnu.org/software/stow/): For managing dotfiles.
 - [**mise**](https://github.com/jdx/mise): For managing programming languages such as JavaScript, Rust, and Golang. And [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) for Python.
 - [**gh**](https://cli.github.com/) and [**lazygit**](https://github.com/jesseduffield/lazygit): For Git workflows.
-- [**fzf**](https://github.com/junegunn/fzf), [**lazydocker**](https://github.com/jesseduffield/lazydocker), [**starship**](https://github.com/starship/starship), **tmux**, etc.
+- [**lazydocker**](https://github.com/jesseduffield/lazydocker), [**starship**](https://github.com/starship/starship), **tmux**, etc.
 
 ## Setup (Windows & WSL)
 
