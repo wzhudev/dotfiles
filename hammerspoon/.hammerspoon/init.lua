@@ -39,7 +39,7 @@ local function launchOrNextWindow(name, showName)
   end
 end
 
-hs.hotkey.bind({ "alt" }, "c", function()
+hs.hotkey.bind({ "alt" }, "e", function()
   launchOrNextWindow("Google Chrome")
 end)
 
@@ -48,7 +48,7 @@ hs.hotkey.bind({ "alt" }, "v", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
-  launchOrNextWindow("Ghostty")
+  launchOrNextWindow("Terminal")
 end)
 
 hs.notify.new({ title = "Hammerspoon", subTitle = "Configuration reloaded!" }):send()
