@@ -16,7 +16,7 @@ My choice is [Visual Studio Code](https://code.visualstudio.com/) because it per
 
 ### Devtools
 
-[Windows Terminal](https://github.com/mirosoft/terminal) on Windows and Terminal on macOS.
+[Warp](https://warp.dev) on Windows and macOS.
 
 Some of my tools include:
 
