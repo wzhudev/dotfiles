@@ -16,10 +16,6 @@ My choice is [Visual Studio Code](https://code.visualstudio.com/) because it per
 
 ### Devtools
 
-[Warp](https://warp.dev) on Windows and macOS.
-
-Some of my tools include:
-
 - [**Homebrew**](https://brew.sh/): To manage packages on both WSL and macOS.
 - [**stow**](https://www.gnu.org/software/stow/): For managing dotfiles.
 - [**mise**](https://github.com/jdx/mise): For managing programming languages such as JavaScript, Rust, and Golang. And [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) for Python.
