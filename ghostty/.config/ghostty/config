@@ -1,5 +1,5 @@
-font-family = "Monaspace Argon"
-font-size = 16
+font-family = "Monaspace Neon"
+font-size = 15
 theme = catppuccin-mocha
 window-padding-balance = true
 macos-option-as-alt = true
