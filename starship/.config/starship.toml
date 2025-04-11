@@ -1,0 +1,7 @@
+[conda]
+format = "conda:[$environment]($style)"  # Customize how it appears
+truncation_length = 0  # Show the full environment name
+ignore_base = true # Show the base environment
+
+[character]  # Ensures Conda appears at the end
+success_symbol = "[>](bold green)"
