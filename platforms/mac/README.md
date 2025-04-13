@@ -7,6 +7,7 @@ First, follow the [WSL Setup Guide](../linux/README.md).
 Use Homebrew to install the necessary applications:
 
 ```sh
+brew install tmux vim
 brew install --cask visual-studio-code raycast hammerspoon docker google-chrome
 ```
 
