@@ -4,27 +4,17 @@ This repository contains my configurations for WSL and macOS, designed to create
 
 ## Introduction
 
-### OS
-
 I primarily use WSL as development environment.
 
-### Editor
+My editor is [Visual Studio Code](https://code.visualstudio.com/) because it performs better with large codebases and offers superior GitHub integration, especially for reviewing pull requests. My VS Code profile can be found [here](https://gist.github.com/wzhudev/578d871aa553e7c849be2924a67dc387). And I use the vim extension.
 
-![screenshot](./editor.png)
-
-My choice is [Visual Studio Code](https://code.visualstudio.com/) because it performs better with large codebases and offers superior GitHub integration, especially for reviewing pull requests. My VS Code profile can be found [here](https://gist.github.com/wzhudev/578d871aa553e7c849be2924a67dc387). And I use the vim extension.
-
-### Devtools
-
-[Windows Terminal](https://github.com/mirosoft/terminal) on Windows and Terminal on macOS.
-
-Some of my tools include:
+Some of my dev tools include:
 
 - [**Homebrew**](https://brew.sh/): To manage packages on both WSL and macOS.
 - [**stow**](https://www.gnu.org/software/stow/): For managing dotfiles.
 - [**mise**](https://github.com/jdx/mise): For managing programming languages such as JavaScript, Rust, and Golang. And [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) for Python.
 - [**gh**](https://cli.github.com/) and [**lazygit**](https://github.com/jesseduffield/lazygit): For Git workflows.
-- [**fzf**](https://github.com/junegunn/fzf), [**lazydocker**](https://github.com/jesseduffield/lazydocker), [**starship**](https://github.com/starship/starship), **tmux**, etc.
+- [**fzf**](https://github.com/junegunn/fzf), [**starship**](https://github.com/starship/starship), etc.
 
 ## Setup (Windows & WSL)
 
