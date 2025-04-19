@@ -1,0 +1,3 @@
+[submodule "ahk/windows-desktop-switcher"]
+	path = submodules/univer
+	url = https://github.com/pmb6tz/windows-desktop-switcher.git
