@@ -120,6 +120,7 @@ alias cd="z"
 alias gfa="git fetch --all"
 alias ld="lazydocker"
 alias resource="source ~/.zshrc"
+alias activate="source venv/bin/activate"
 
 function proxy() {
   export ALL_PROXY="http://127.0.0.1:7890"
