@@ -48,7 +48,7 @@ hs.hotkey.bind({ "alt" }, "v", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
-  launchOrNextWindow("Ghostty")
+  launchOrNextWindow("Terminal")
 end)
 
 hs.notify.new({ title = "Hammerspoon", subTitle = "Configuration reloaded!" }):send()
