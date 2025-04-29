@@ -1,5 +1,5 @@
 [core]
-	editor = vim
+	editor = nvim
 	quotepath = false
 
 [alias]
@@ -42,9 +42,3 @@
 [url "https://github.com/"]
 	insteadOf = git@github.com:
 
-# [credential "https://github.com"]
-# 	helper = 
-# 	helper = !(path-to-gh) auth git-credential
-# [credential "https://gist.github.com"]
-# 	helper = 
-# 	helper = !(path-to-gh) auth git-credential

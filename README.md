@@ -4,7 +4,7 @@ This repository contains my configurations for WSL and macOS, designed to create
 
 ## Introduction
 
-I primarily use WSL as development environment.
+I primarily use Fedora WSL as development environment.
 
 My editor is [Visual Studio Code](https://code.visualstudio.com/) because it performs better with large codebases and offers superior GitHub integration, especially for reviewing pull requests. My VS Code profile can be found [here](https://gist.github.com/wzhudev/578d871aa553e7c849be2924a67dc387). And I use the vim extension.
 

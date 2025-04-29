@@ -1,35 +1,14 @@
-# WSL Setup
+# Fedora
 
 ## Install zsh and oh-my-zsh
 
-```shell
-sudo apt install zsh
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-And change the default shell to zsh:
-
-```shell
-chsh -s $(which zsh)
-```
-
-## Install Homebrew (Linuxbrew)
-
-```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-And add Homebrew to the .zshrc file.
-
 ## Install Devtools
 
-Use Homebrew to install the required terminal applications:
-
 ```bash
-brew install zoxide eza fzf gh lazygit lazydocker mise starship stow uv
-brew install zsh-syntax-highlighting zsh-autosuggestions
-```  
+sudo dnf copr enable alterateved/eza atim/lazydocker atim/starship atim/lazygit
+
+sudo dnf install -y zoxide eza fzf gh lazygit lazydocker mise starship stow uv
+```
 
 ## Configuration
 
@@ -46,7 +25,7 @@ Copy and link configuration files:
 ```bash  
 cp ~/.dotfiles/config/git.gitconfig ~/.gitconfig
 
-stow mise starship
+stow mise starship nvim tmux ghostty-mac btop bat
 ```  
 
 ### Update `.zshrc`
@@ -65,4 +44,5 @@ If a proxy is required, use the following command to set it up:
 export ALL_PROXY="http://127.0.0.1:7890"
 export HTTPS_PROXY="http://127.0.0.1:7890"
 export HTTP_PROXY="http://127.0.0.1:7890"
-```
+
+
