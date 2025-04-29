@@ -75,8 +75,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
@@ -115,7 +113,6 @@ alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 alias fd="fdfind"
 alias lg="lazygit"
 alias c="code"
-alias ci="code-insiders"
 alias cd="z"
 alias gfa="git fetch --all"
 alias ld="lazydocker"

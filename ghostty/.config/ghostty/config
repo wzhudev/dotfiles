@@ -1,7 +1,8 @@
 font-family = "Monaspace Neon"
-font-size = 15
+font-size = 12
 theme = catppuccin-mocha
 window-padding-balance = true
 macos-option-as-alt = true
 background-opacity = 0.96
 background-blur = 20
+window-decoration = false
