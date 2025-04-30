@@ -22,17 +22,22 @@ gh repo clone wzhudev/dotfiles .dotfiles
 
 Copy and link configuration files:
 
-```bash  
+```bash
 cp ~/.dotfiles/git/.gitconfig ~/.gitconfig
-stow mise tmux btop k9s
-```  
 
-### Update `.zshrc`
+stow mise tmux btop k9s
+```
 
 Add custom `.zshrc` configuration by sourcing it:
 
 ```bash
 echo "source ~/.dotfiles/zsh/.zshrc" >> ~/.zshrc
+```
+
+Change starship config:
+
+```shell
+starship preset plain-text-symbols -o ~/.config/starship.toml
 ```
 
 ## Miscellaneous
@@ -44,4 +49,3 @@ export ALL_PROXY="http://127.0.0.1:7890"
 export HTTPS_PROXY="http://127.0.0.1:7890"
 export HTTP_PROXY="http://127.0.0.1:7890"
 ```
-

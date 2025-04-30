@@ -11,7 +11,7 @@ And use it to install dependencies:
 ```bash
 brew install zoxide eza fzf gh lazygit lazydocker mise starship stow uv
 brew install zsh-syntax-highlighting zsh-autosuggestions
-```  
+```
 
 Link more configuration files:
 
