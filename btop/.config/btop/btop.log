@@ -1,0 +1,12 @@
+
+2025/04/30 (15:36:20) | ===> btop++ v.1.4.0
+2025/04/30 (15:36:20) | WARNING: Error in Mem::collect() : filesystem error: cannot get file time: No such file or directory [/etc/fstab]
+2025/04/30 (15:36:20) | WARNING: Error in Mem::collect() : filesystem error: cannot get file time: No such file or directory [/etc/fstab]
+2025/04/30 (15:36:22) | WARNING: Error in Mem::collect() : filesystem error: cannot get file time: No such file or directory [/etc/fstab]
+2025/04/30 (15:36:24) | WARNING: Error in Mem::collect() : filesystem error: cannot get file time: No such file or directory [/etc/fstab]
+2025/04/30 (15:36:24) | WARNING: Error in Mem::collect() : filesystem error: cannot get file time: No such file or directory [/etc/fstab]
+2025/04/30 (15:36:24) | WARNING: Error in Mem::collect() : filesystem error: cannot get file time: No such file or directory [/etc/fstab]
+2025/04/30 (15:36:26) | WARNING: Error in Mem::collect() : filesystem error: cannot get file time: No such file or directory [/etc/fstab]
+2025/04/30 (15:36:26) | WARNING: Error in Mem::collect() : filesystem error: cannot get file time: No such file or directory [/etc/fstab]
+2025/04/30 (15:36:28) | WARNING: Error in Mem::collect() : filesystem error: cannot get file time: No such file or directory [/etc/fstab]
+2025/04/30 (15:36:29) | WARNING: Failed to join _runner thread on exit!
