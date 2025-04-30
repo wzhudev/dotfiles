@@ -25,7 +25,7 @@ Copy and link configuration files:
 ```bash  
 cp ~/.dotfiles/config/git.gitconfig ~/.gitconfig
 
-stow mise starship nvim tmux ghostty-mac btop bat
+stow mise starship tmux ghostty-mac btop
 ```  
 
 ### Update `.zshrc`

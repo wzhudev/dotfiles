@@ -112,12 +112,15 @@ alias lta="lt -a"
 alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 alias fd="fdfind"
 alias lg="lazygit"
+alias ld="lazydocker"
 alias c="code"
 alias cd="z"
-alias gfa="git fetch --all"
-alias ld="lazydocker"
 alias resource="source ~/.zshrc"
 alias activate="source .venv/bin/activate"
+
+# git shortcuts
+alias gfa="git fetch --all"
+alias grc="git rebase --continue"
 
 function proxy() {
   export ALL_PROXY="http://127.0.0.1:7890"
