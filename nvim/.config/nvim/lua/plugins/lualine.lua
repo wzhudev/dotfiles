@@ -15,7 +15,6 @@ return {
           },
         },
         { "filename", path = 1 }, -- show full path
-        -- not using navic
       }
     end,
   },
