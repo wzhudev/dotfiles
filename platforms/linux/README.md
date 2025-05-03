@@ -34,12 +34,6 @@ Add custom `.zshrc` configuration by sourcing it:
 echo "source ~/.dotfiles/zsh/.zshrc" >> ~/.zshrc
 ```
 
-Change starship config:
-
-```shell
-starship preset plain-text-symbols -o ~/.config/starship.toml
-```
-
 ## Miscellaneous
 
 If a proxy is required, use the following command to set it up:
