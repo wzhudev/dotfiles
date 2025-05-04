@@ -29,6 +29,10 @@ gh auth setup-git
 stow tmux
 
 echo "source ~/.dotfiles/zsh/.zshrc" >> ~/.zshrc
+
+resource
+
+starship preset plain-text-symbols -o ~/.config/starship.toml
 ```
 
 ## Miscellaneous
