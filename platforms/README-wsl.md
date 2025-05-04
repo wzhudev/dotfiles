@@ -1,4 +1,4 @@
-# Fedora
+# Fedora (WSL)
 
 Install dependencies:
 
@@ -7,30 +7,27 @@ sudo dnf copr enable alterateved/eza atim/lazydocker atim/starship atim/lazygit
 sudo dnf install -y zoxide eza fzf gh lazygit lazydocker mise starship stow uv
 ```
 
-Install oh-my-zsh and make zsh as default shell:
+Install oh-my-zsh and make zsh as the default shell:
 
-```shell
+```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 Login to GitHub and download dotfiles:
 
-```bash
+```shell
 gh auth login
 gh repo clone wzhudev/dotfiles .dotfiles
 ```
 
 Copy and link configuration files:
 
-```bash
+```shell
 cp ~/.dotfiles/git/.gitconfig ~/.gitconfig
+gh auth setup-git
 
-stow mise tmux btop k9s
-```
+stow tmux
 
-Add custom `.zshrc` configuration by sourcing it:
-
-```bash
 echo "source ~/.dotfiles/zsh/.zshrc" >> ~/.zshrc
 ```
 
@@ -38,7 +35,7 @@ echo "source ~/.dotfiles/zsh/.zshrc" >> ~/.zshrc
 
 If a proxy is required, use the following command to set it up:
 
-```bash
+```shell
 export ALL_PROXY="http://127.0.0.1:7890"
 export HTTPS_PROXY="http://127.0.0.1:7890"
 export HTTP_PROXY="http://127.0.0.1:7890"
