@@ -51,4 +51,12 @@ hs.hotkey.bind({ "alt" }, "v", function()
 	launchOrNextWindow("Visual Studio Code", "Code")
 end)
 
+hs.hotkey.bind({ "alt" }, "w", function()
+	launchOrNextWindow("WeChat")
+end)
+
+hs.hotkey.bind({ "alt" }, "q", function()
+	launchOrNextWindow("企业微信")
+end)
+
 hs.notify.new({ title = "Hammerspoon", subTitle = "Configuration reloaded!" }):send()
