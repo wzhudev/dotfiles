@@ -1,14 +1,16 @@
-alias ls="eza -lh --group-directories-first"
 alias lsa="ls -a"
 alias lt="eza --tree --level=2 --long --git"
 alias lta="lt -a"
 alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 alias fd="fdfind"
 alias lg="lazygit"
+alias ld="lazydocker"
+alias c="code"
 alias cd="z"
 alias resource="source ~/.zshrc"
 alias activate="source .venv/bin/activate"
 
+# git shortcuts
 alias gfa="git fetch --all"
 alias grc="git rebase --continue"
 
@@ -36,3 +38,5 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
 eval "$(mise activate zsh)"
 eval "$(starship init zsh)"
+
+export PATH="/home/wzhudev/.local/bin:$PATH"
