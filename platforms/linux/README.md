@@ -34,8 +34,6 @@ Add custom `.zshrc` configuration by sourcing it:
 echo "source ~/.dotfiles/zsh/.zshrc" >> ~/.zshrc
 
 resource
-
-starship preset plain-text-symbols -o ~/.config/starship.toml
 ```
 
 ## Miscellaneous

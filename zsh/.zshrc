@@ -1,6 +1,6 @@
-alias ls="eza -lh --group-directories-first"
+alias ls="eza -lh --group-directories-first --icons"
 alias lsa="ls -a"
-alias lt="eza --tree --level=2 --long --git"
+alias lt="eza --tree --level=2 --long --git --icons"
 alias lta="lt -a"
 alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 alias fd="fdfind"
