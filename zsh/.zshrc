@@ -1,3 +1,4 @@
+alias ls="eza -lh --group-directories-first"
 alias lsa="ls -a"
 alias lt="eza --tree --level=2 --long --git"
 alias lta="lt -a"
