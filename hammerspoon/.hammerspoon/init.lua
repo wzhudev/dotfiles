@@ -67,5 +67,8 @@ hs.hotkey.bind({ "alt" }, "n", function()
 	launchOrNextWindow("Notion")
 end)
 
+hs.hotkey.bind({ "alt" }, "c", function()
+	launchOrNextWindow("Cursor")
+end)
 
 hs.notify.new({ title = "Hammerspoon", subTitle = "Configuration reloaded!" }):send()
