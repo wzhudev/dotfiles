@@ -7,10 +7,10 @@ sudo dnf copr enable alterateved/eza atim/lazydocker atim/starship atim/lazygit
 sudo dnf install -y zoxide eza fzf gh lazygit lazydocker mise starship stow uv
 ```
 
-Install oh-my-zsh and make zsh as default shell:
+Change default shell to Zsh:
 
-```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```bash
+chsh -s $(which zsh)
 ```
 
 Login to GitHub and download dotfiles:

@@ -14,6 +14,9 @@ alias activate="source .venv/bin/activate"
 # git shortcuts
 alias gfa="git fetch --all"
 alias grc="git rebase --continue"
+alias gsu="git submodule update"
+alias gsui="git submodule update --init --recursive"
+alias gsur="git submodule sync"
 
 function proxy() {
   export ALL_PROXY="http://127.0.0.1:7890"
