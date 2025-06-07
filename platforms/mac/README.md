@@ -9,7 +9,7 @@ Install Homebrew:
 And use it to install dependencies:
 
 ```bash
-brew install zoxide eza fzf gh lazygit lazydocker mise starship stow uv
+brew install vim zoxide eza fzf gh lazygit lazydocker mise starship stow uv
 ```
 
 Link more configuration files:
