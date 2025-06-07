@@ -1,4 +1,4 @@
-font-family = "monaco"
+font-family = "menlo"
 font-size = 14
 theme = catppuccin-mocha
 window-padding-balance = true
