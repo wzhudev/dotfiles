@@ -2,38 +2,13 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-mocha",
+      colorscheme = "tokyonight",
     },
   },
   {
-    "catppuccin/nvim",
-    name = "catppuccin",
+    "folke/tokyonight.nvim",
     opts = {
-      term_colors = true,
-      transparent_background = true,
-      styles = {
-        comments = {},
-        conditionals = {},
-        loops = {},
-        functions = {},
-        keywords = {},
-        strings = {},
-        variables = {},
-        numbers = {},
-        booleans = {},
-        properties = {},
-        types = {},
-      },
-      integrations = {
-        telescope = {
-          enabled = true,
-          style = "nvchad",
-        },
-        dropbar = {
-          enabled = true,
-          color_mode = true,
-        },
-      },
-    },
-  },
+      transparent = true,
+    }
+  }
 }
