@@ -1,6 +1,6 @@
-alias ls="eza -lh --group-directories-first --icons"
+alias ls="eza -lh --group-directories-first"
 alias lsa="ls -a"
-alias lt="eza --tree --level=2 --long --git --icons"
+alias lt="eza --tree --level=2 --long --git"
 alias lta="lt -a"
 alias lg="lazygit"
 alias ld="lazydocker"
