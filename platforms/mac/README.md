@@ -15,5 +15,5 @@ brew install neovim zoxide eza fzf gh lazygit lazydocker mise starship stow uv
 Link more configuration files:
 
 ```bash
-stow ghostty-mac hammerspoon
+stow hammerspoon
 ```
