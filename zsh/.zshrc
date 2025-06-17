@@ -21,6 +21,7 @@ alias gsur="git submodule sync"
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
+
 # proxy
 function proxy() {
   export ALL_PROXY="http://127.0.0.1:7890"
@@ -45,5 +46,9 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
 eval "$(mise activate zsh)"
 eval "$(starship init zsh)"
+
+# macos
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export PATH="/home/wzhudev/.local/bin:$PATH"
