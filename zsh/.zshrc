@@ -21,7 +21,6 @@ alias gsur="git submodule sync"
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
-
 # proxy
 function proxy() {
   export ALL_PROXY="http://127.0.0.1:7890"
@@ -32,6 +31,7 @@ function proxy() {
   export https_proxy="http://127.0.0.1:7890"
   export http_proxy="http://127.0.0.1:7890"
 }
+
 function unproxy() {
   unset ALL_PROXY
   unset HTTPS_PROXY

@@ -55,10 +55,6 @@ hs.hotkey.bind({ "alt" }, "w", function()
 	launchOrNextWindow("WeChat")
 end)
 
-hs.hotkey.bind({ "alt" }, "q", function()
-	launchOrNextWindow("企业微信")
-end)
-
 hs.hotkey.bind({ "alt" }, "l", function()
 	launchOrNextWindow("Lark")
 end)
