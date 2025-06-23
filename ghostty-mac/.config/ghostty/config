@@ -1,6 +1,6 @@
-font-family = monaco
-font-size = 14
-theme = "Monokai Classic"
+font-family = "Monaspace Neon"
+font-size = 15
+theme = tokyonight
 window-padding-balance = true
 macos-option-as-alt = true
 background-opacity = 0.94
