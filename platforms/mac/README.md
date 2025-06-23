@@ -16,5 +16,5 @@ brew install zsh-autosuggestions zsh-syntax-highlighting
 Link more configuration files:
 
 ```bash
-stow hammerspoon
+stow ghostty-mac hammerspoon
 ```
