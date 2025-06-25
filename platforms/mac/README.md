@@ -9,8 +9,10 @@ Install Homebrew:
 And use it to install dependencies:
 
 ```bash
-brew install neovim zoxide eza fzf gh lazygit lazydocker mise starship stow uv
+brew install zoxide eza fzf gh lazygit lazydocker mise starship stow uv
 brew install zsh-autosuggestions zsh-syntax-highlighting
+
+brew install --cask visual-studio-code ghostty hammerspoon
 ```
 
 Link more configuration files:

@@ -3,5 +3,5 @@ font-size = 15
 theme = tokyonight
 window-padding-balance = true
 macos-option-as-alt = true
-background-opacity = 0.94
+background-opacity = 0.9
 background-blur = 20
