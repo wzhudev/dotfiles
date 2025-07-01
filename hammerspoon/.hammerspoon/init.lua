@@ -48,6 +48,10 @@ hs.hotkey.bind({ "alt" }, "t", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
+	launchOrNextWindow("Trae CN")
+end)
+
+hs.hotkey.bind({ "alt" }, "c", function()
 	launchOrNextWindow("Visual Studio Code", "Code")
 end)
 
@@ -57,6 +61,10 @@ end)
 
 hs.hotkey.bind({ "alt" }, "l", function()
 	launchOrNextWindow("Lark")
+end)
+
+hs.hotkey.bind({ "alt" }, "b", function()
+	launchOrNextWindow("Bifrost")
 end)
 
 hs.notify.new({ title = "Hammerspoon", subTitle = "Configuration reloaded!" }):send()
