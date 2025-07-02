@@ -55,10 +55,6 @@ hs.hotkey.bind({ "alt" }, "w", function()
 	launchOrNextWindow("WeChat")
 end)
 
-hs.hotkey.bind({ "alt" }, "n", function()
-	launchOrNextWindow("Notion")
-end)
-
 -- #region ByteDance
 
 hs.hotkey.bind({ "alt" }, "b", function()
