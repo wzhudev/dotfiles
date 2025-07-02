@@ -48,7 +48,7 @@ hs.hotkey.bind({ "alt" }, "t", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
-	launchOrNextWindow("Visual Studio Code", "Code")
+	launchOrNextWindow("Trae CN")
 end)
 
 hs.hotkey.bind({ "alt" }, "w", function()
