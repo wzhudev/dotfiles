@@ -11,11 +11,11 @@ And use it to install dependencies:
 ```bash
 brew install zoxide eza fzf gh lazygit lazydocker mise starship stow uv neovim tmux zsh-autosuggestions zsh-syntax-highlighting
 
-brew install --cask visual-studio-code ghostty hammerspoon hiddenbar monitorcontrol
+brew install --cask visual-studio-code hammerspoon hiddenbar monitorcontrol
 ```
 
 Link more configuration files:
 
 ```bash
-stow ghostty-mac hammerspoon
+stow hammerspoon
 ```
