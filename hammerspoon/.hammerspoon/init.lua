@@ -47,7 +47,7 @@ hs.hotkey.bind({ "alt" }, "t", function()
 	launchOrNextWindow("Terminal")
 end)
 
-hs.hotkey.bind({ "alt" }, "c", function()
+hs.hotkey.bind({ "alt" }, "v", function()
 	launchOrNextWindow("Visual Studio Code", "Code")
 end)
 
