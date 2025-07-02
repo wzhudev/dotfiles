@@ -4,7 +4,7 @@ Install dependencies:
 
 ```bash
 sudo dnf copr enable alterateved/eza atim/lazydocker atim/starship atim/lazygit
-sudo dnf install -y zoxide eza fzf gh lazygit lazydocker mise starship stow uv
+sudo dnf install -y zoxide eza fzf gh lazygit lazydocker mise starship stow uv neovim
 ```
 
 Change default shell to Zsh:

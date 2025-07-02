@@ -44,7 +44,7 @@ hs.hotkey.bind({ "alt" }, "e", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
-	launchOrNextWindow("Terminal")
+	launchOrNextWindow("Ghostty")
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
@@ -56,10 +56,6 @@ hs.hotkey.bind({ "alt" }, "w", function()
 end)
 
 -- #region ByteDance
-
-hs.hotkey.bind({ "alt" }, "b", function()
-	launchOrNextWindow("Bifrost")
-end)
 
 hs.hotkey.bind({ "alt" }, "l", function()
 	launchOrNextWindow("Lark")
