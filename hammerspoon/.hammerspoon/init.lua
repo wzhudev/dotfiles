@@ -44,7 +44,7 @@ hs.hotkey.bind({ "alt" }, "e", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
-	launchOrNextWindow("Terminal")
+	launchOrNextWindow("Ghostty")
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
