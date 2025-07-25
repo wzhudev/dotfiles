@@ -1,14 +1,3 @@
-local configFileWatcher
-
-local function reloadConfig()
-	configFileWatcher:stop()
-	configFileWatcher = nil
-	hs.reload()
-end
-
--- watch config file change and auto reload
-configFileWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/init.lua/", reloadConfig)
-configFileWatcher:start()
 function getWinList(name)
 	return hs.window.filter
 		.new(false)
@@ -75,4 +64,16 @@ end)
 
 -- #endregion
 
-hs.notify.new({ title = "Hammerspoon", subTitle = "Configuration reloaded!" }):send()
+-- watch config file change and auto reload
+
+local configFileWatcher
+
+local function reloadConfig()
+	configFileWatcher:stop()
+	configFileWatcher = nil
+	hs.reload()
+	hs.notify.new({ title = "Hammerspoon", subTitle = "Configuration reloaded" }):send()
+end
+
+configFileWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/init.lua/", reloadConfig)
+configFileWatcher:start()
