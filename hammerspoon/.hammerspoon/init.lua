@@ -69,10 +69,6 @@ hs.hotkey.bind({ "alt" }, "l", function()
 	launchOrNextWindow("Lark")
 end)
 
-hs.hotkey.bind({ "alt" }, "x", function()
-	launchOrNextWindow("Flow -- Cloud IDE")
-end)
-
 hs.hotkey.bind({ "alt" }, "b", function()
 	launchOrNextWindow("Bifrost")
 end)
