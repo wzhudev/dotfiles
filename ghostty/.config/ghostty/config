@@ -1,7 +1,7 @@
 font-family = Monaspace Neon
 font-size = 15
-theme = nord
-background-opacity = 0.94
+theme = dark:tokyonight,light:tokyonight-day
+background-opacity = 0.96
 background-blur = 20
 macos-option-as-alt = true
 macos-icon = glass
