@@ -56,6 +56,9 @@ hs.hotkey.bind({ "alt" }, "c", function()
 	launchOrNextWindow("Notion Calendar")
 end)
 
+hs.hotkey.bind({ "alt" }, "z", function()
+	launchOrNextWindow("Zed")
+end)
 -- #region ByteDance
 
 hs.hotkey.bind({ "alt" }, "l", function()
