@@ -59,6 +59,7 @@ end)
 hs.hotkey.bind({ "alt" }, "z", function()
 	launchOrNextWindow("Zed")
 end)
+
 -- #region ByteDance
 
 hs.hotkey.bind({ "alt" }, "l", function()
