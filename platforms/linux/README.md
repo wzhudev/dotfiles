@@ -1,10 +1,16 @@
-# Fedora (WSL)
+# Linux / WSL
 
-Install dependencies:
+Use Homebrew(Linuxbrew) to install dependencies:
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+And then install the required packages:
 
 ```bash
-sudo dnf copr enable alterateved/eza atim/starship atim/lazygit
-sudo dnf install -y zoxide eza fzf gh lazygit mise starship
+brew install zoxide eza fzf gh lazygit mise starship stow
+brew install zsh-autosuggestions zsh-syntax-highlighting
 ```
 
 Change default shell to Zsh:
@@ -32,6 +38,12 @@ Add custom `.zshrc` configuration by sourcing it:
 echo "source ~/.dotfiles/zsh/.zshrc" >> ~/.zshrc
 
 resource
+```
+
+Use starship plain text symbols preset:
+
+```bash
+starship preset plain-text-symbols -o ~/.config/starship.toml
 ```
 
 ## Miscellaneous
