@@ -41,7 +41,7 @@ hs.hotkey.bind({ "alt" }, "f", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
-	launchOrNextWindow("Visual Studio Code", "Code")
+	launchOrNextWindow("Visual Studio Code - Insiders", "Code - Insiders")
 end)
 
 hs.hotkey.bind({ "alt" }, "w", function()
@@ -60,9 +60,13 @@ hs.hotkey.bind({ "alt" }, "z", function()
 	launchOrNextWindow("Zed")
 end)
 
+hs.hotkey.bind({ "alt" }, "l", function()
+	launchOrNextWindow("Linear")
+end)
+
 -- #region ByteDance
 
-hs.hotkey.bind({ "alt" }, "l", function()
+hs.hotkey.bind({ "alt" }, "k", function()
 	launchOrNextWindow("Lark")
 end)
 
