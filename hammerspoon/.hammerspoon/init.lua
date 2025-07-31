@@ -41,7 +41,7 @@ hs.hotkey.bind({ "alt" }, "f", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
-	launchOrNextWindow("Visual Studio Code - Insiders", "Code - Insiders")
+	launchOrNextWindow("Visual Studio Code", "Code")
 end)
 
 hs.hotkey.bind({ "alt" }, "w", function()
@@ -54,10 +54,6 @@ end)
 
 hs.hotkey.bind({ "alt" }, "c", function()
 	launchOrNextWindow("Notion Calendar")
-end)
-
-hs.hotkey.bind({ "alt" }, "z", function()
-	launchOrNextWindow("Zed")
 end)
 
 hs.hotkey.bind({ "alt" }, "l", function()
