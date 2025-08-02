@@ -32,12 +32,12 @@ hs.hotkey.bind({ "alt" }, "e", function()
 	launchOrNextWindow("Google Chrome")
 end)
 
-hs.hotkey.bind({ "alt" }, "t", function()
-	launchOrNextWindow("Terminal")
+hs.hotkey.bind({ "alt" }, "c", function()
+	launchOrNextWindow("Cursor")
 end)
 
-hs.hotkey.bind({ "alt" }, "f", function()
-	launchOrNextWindow("Figma")
+hs.hotkey.bind({ "alt" }, "t", function()
+	launchOrNextWindow("Terminal")
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
