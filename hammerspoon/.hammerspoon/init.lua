@@ -33,7 +33,7 @@ hs.hotkey.bind({ "alt" }, "e", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
-	launchOrNextWindow("Ghostty")
+	launchOrNextWindow("Terminal")
 end)
 
 hs.hotkey.bind({ "alt" }, "f", function()
@@ -46,18 +46,6 @@ end)
 
 hs.hotkey.bind({ "alt" }, "w", function()
 	launchOrNextWindow("WeChat")
-end)
-
-hs.hotkey.bind({ "alt" }, "n", function()
-	launchOrNextWindow("Notion")
-end)
-
-hs.hotkey.bind({ "alt" }, "c", function()
-	launchOrNextWindow("Notion Calendar")
-end)
-
-hs.hotkey.bind({ "alt" }, "l", function()
-	launchOrNextWindow("Linear")
 end)
 
 -- #region ByteDance
