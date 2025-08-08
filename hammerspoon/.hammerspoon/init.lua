@@ -40,10 +40,6 @@ hs.hotkey.bind({ "alt" }, "v", function()
 	launchOrNextWindow("Visual Studio Code", "Code")
 end)
 
-hs.hotkey.bind({ "alt" }, "y", function()
-	launchOrNextWindow("Trae CN")
-end)
-
 hs.hotkey.bind({ "alt" }, "w", function()
 	launchOrNextWindow("WeChat")
 end)
