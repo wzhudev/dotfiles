@@ -36,6 +36,10 @@ hs.hotkey.bind({ "alt" }, "t", function()
 	launchOrNextWindow("Ghostty")
 end)
 
+hs.hotkey.bind({ "alt" }, "f", function()
+	launchOrNextWindow("Figma")
+end)
+
 hs.hotkey.bind({ "alt" }, "v", function()
 	launchOrNextWindow("Visual Studio Code", "Code")
 end)
