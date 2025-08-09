@@ -32,12 +32,32 @@ hs.hotkey.bind({ "alt" }, "e", function()
 	launchOrNextWindow("Google Chrome")
 end)
 
+hs.hotkey.bind({ "alt" }, "d", function()
+	launchOrNextWindow("Dia")
+end)
+
+hs.hotkey.bind({ "alt" }, "f", function()
+	launchOrNextWindow("Finder")
+end)
+
+hs.hotkey.bind({ "alt" }, "a", function()
+	launchOrNextWindow("ChatGPT")
+end)
+
 hs.hotkey.bind({ "alt" }, "t", function()
 	launchOrNextWindow("Ghostty")
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
 	launchOrNextWindow("Visual Studio Code", "Code")
+end)
+
+hs.hotkey.bind({ "alt" }, "l", function()
+	launchOrNextWindow("Linear")
+end)
+
+hs.hotkey.bind({ "alt" }, "c", function()
+	launchOrNextWindow("Cursor")
 end)
 
 hs.hotkey.bind({ "alt" }, "w", function()
