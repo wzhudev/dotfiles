@@ -64,6 +64,10 @@ hs.hotkey.bind({ "alt" }, "w", function()
 	launchOrNextWindow("WeChat")
 end)
 
+hs.hotkey.bind({ "alt" }, "z", function()
+	launchOrNextWindow("Zoom")
+end)
+
 -- #region ByteDance
 
 hs.hotkey.bind({ "alt" }, "k", function()
