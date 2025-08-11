@@ -45,7 +45,7 @@ hs.hotkey.bind({ "alt" }, "t", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
-	launchOrNextWindow("Visual Studio Code", "Code")
+	launchOrNextWindow("Cloud IDE")
 end)
 
 hs.hotkey.bind({ "alt" }, "l", function()
@@ -72,6 +72,10 @@ end)
 
 hs.hotkey.bind({ "alt" }, "b", function()
 	launchOrNextWindow("Bifrost")
+end)
+
+hs.hotkey.bind({ "alt" }, "d", function()
+	launchOrNextWindow("Doubao")
 end)
 
 -- #endregion
