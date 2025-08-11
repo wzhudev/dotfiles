@@ -40,10 +40,6 @@ hs.hotkey.bind({ "alt" }, "f", function()
 	launchOrNextWindow("Finder")
 end)
 
-hs.hotkey.bind({ "alt" }, "a", function()
-	launchOrNextWindow("ChatGPT")
-end)
-
 hs.hotkey.bind({ "alt" }, "t", function()
 	launchOrNextWindow("Ghostty")
 end)
