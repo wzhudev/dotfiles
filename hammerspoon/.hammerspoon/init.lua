@@ -48,9 +48,6 @@ hs.hotkey.bind({ "alt" }, "t", function()
 	launchOrNextWindow("Ghostty")
 end)
 
-hs.hotkey.bind({ "alt" }, "v", function()
-	launchOrNextWindow("Trae CN")
-end)
 
 hs.hotkey.bind({ "alt" }, "l", function()
 	launchOrNextWindow("Linear")
@@ -78,8 +75,8 @@ hs.hotkey.bind({ "alt" }, "b", function()
 	launchOrNextWindow("Bifrost")
 end)
 
-hs.hotkey.bind({ "alt" }, "d", function()
-	launchOrNextWindow("Doubao")
+hs.hotkey.bind({ "alt" }, "v", function()
+	launchOrNextWindow("Trae CN")
 end)
 
 -- #endregion
