@@ -37,6 +37,10 @@ hs.hotkey.bind({ "alt" }, "d", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "f", function()
+	launchOrNextWindow("Figma")
+end)
+
+hs.hotkey.bind({ "alt" }, "g", function()
 	launchOrNextWindow("Finder")
 end)
 
@@ -45,7 +49,7 @@ hs.hotkey.bind({ "alt" }, "t", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
-	launchOrNextWindow("Cloud IDE")
+	launchOrNextWindow("Trae CN")
 end)
 
 hs.hotkey.bind({ "alt" }, "l", function()
