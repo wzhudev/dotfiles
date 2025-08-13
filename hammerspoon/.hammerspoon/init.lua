@@ -87,10 +87,6 @@ hs.hotkey.bind({ "alt" }, "b", function()
 	launchOrNextWindow("Bifrost")
 end)
 
-hs.hotkey.bind({ "alt" }, "y", function()
-	launchOrNextWindow("Trae CN")
-end)
-
 -- #endregion
 
 -- watch config file change and auto reload
