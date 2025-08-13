@@ -32,6 +32,10 @@ hs.hotkey.bind({ "alt" }, "e", function()
 	launchOrNextWindow("Google Chrome")
 end)
 
+hs.hotkey.bind({ "alt" }, "v", function()
+	launchOrNextWindow("Visual Studio Code", "Code")
+end)
+
 hs.hotkey.bind({ "alt" }, "d", function()
 	launchOrNextWindow("Dia")
 end)
@@ -83,7 +87,7 @@ hs.hotkey.bind({ "alt" }, "b", function()
 	launchOrNextWindow("Bifrost")
 end)
 
-hs.hotkey.bind({ "alt" }, "v", function()
+hs.hotkey.bind({ "alt" }, "y", function()
 	launchOrNextWindow("Trae CN")
 end)
 
