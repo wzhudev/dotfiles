@@ -37,6 +37,10 @@ hs.hotkey.bind({ "alt" }, "d", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "f", function()
+	launchOrNextWindow("Figma")
+end)
+
+hs.hotkey.bind({ "alt" }, "g", function()
 	launchOrNextWindow("Finder")
 end)
 
@@ -44,9 +48,6 @@ hs.hotkey.bind({ "alt" }, "t", function()
 	launchOrNextWindow("Ghostty")
 end)
 
-hs.hotkey.bind({ "alt" }, "v", function()
-	launchOrNextWindow("Visual Studio Code", "Code")
-end)
 
 hs.hotkey.bind({ "alt" }, "l", function()
 	launchOrNextWindow("Linear")
@@ -80,6 +81,10 @@ end)
 
 hs.hotkey.bind({ "alt" }, "b", function()
 	launchOrNextWindow("Bifrost")
+end)
+
+hs.hotkey.bind({ "alt" }, "v", function()
+	launchOrNextWindow("Trae CN")
 end)
 
 -- #endregion
