@@ -36,29 +36,12 @@ hs.hotkey.bind({ "alt" }, "v", function()
 	launchOrNextWindow("Visual Studio Code", "Code")
 end)
 
-hs.hotkey.bind({ "alt" }, "d", function()
-	launchOrNextWindow("Dia")
-end)
-
-hs.hotkey.bind({ "alt" }, "f", function()
-	launchOrNextWindow("Figma")
-end)
-
 hs.hotkey.bind({ "alt" }, "g", function()
 	launchOrNextWindow("Finder")
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
 	launchOrNextWindow("Ghostty")
-end)
-
-
-hs.hotkey.bind({ "alt" }, "l", function()
-	launchOrNextWindow("Linear")
-end)
-
-hs.hotkey.bind({ "alt" }, "c", function()
-	launchOrNextWindow("Cursor")
 end)
 
 hs.hotkey.bind({ "alt" }, "w", function()
@@ -69,19 +52,7 @@ hs.hotkey.bind({ "alt" }, "z", function()
 	launchOrNextWindow("Zoom")
 end)
 
-hs.hotkey.bind({ "alt" }, "n", function()
-	launchOrNextWindow("Notion")
-end)
-
-hs.hotkey.bind({ "alt" }, "m", function()
-	launchOrNextWindow("Notion Calendar")
-end)
-
 -- #region ByteDance
-
-hs.hotkey.bind({ "alt" }, "j", function()
-	launchOrNextWindow("Trae CN")
-end)
 
 hs.hotkey.bind({ "alt" }, "k", function()
 	launchOrNextWindow("Lark")
