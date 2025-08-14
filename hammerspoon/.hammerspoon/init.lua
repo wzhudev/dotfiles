@@ -79,6 +79,10 @@ end)
 
 -- #region ByteDance
 
+hs.hotkey.bind({ "alt" }, "j", function()
+	launchOrNextWindow("Trae CN")
+end)
+
 hs.hotkey.bind({ "alt" }, "k", function()
 	launchOrNextWindow("Lark")
 end)
