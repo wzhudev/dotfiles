@@ -62,6 +62,10 @@ hs.hotkey.bind({ "alt" }, "b", function()
 	launchOrNextWindow("Bifrost")
 end)
 
+hs.hotkey.bind({ "alt" }, "c", function()
+	launchOrNextWindow("Cloud IDE")
+end)
+
 -- #endregion
 
 -- watch config file change and auto reload
