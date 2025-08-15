@@ -41,7 +41,7 @@ hs.hotkey.bind({ "alt" }, "g", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
-	launchOrNextWindow("Ghostty")
+	launchOrNextWindow("Terminal")
 end)
 
 hs.hotkey.bind({ "alt" }, "w", function()
@@ -63,7 +63,7 @@ hs.hotkey.bind({ "alt" }, "b", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "c", function()
-	launchOrNextWindow("Cloud IDE")
+	launchOrNextWindow("Trae CN")
 end)
 
 -- #endregion
