@@ -5,9 +5,9 @@ export PATH="/home/wzhudev/.local/bin:$PATH"
 export NODE_OPTIONS="--max-old-space-size=8192"
 
 # aliases
-alias ls="eza -lh --group-directories-first"
+alias ls="eza -lh --group-directories-first --icons"
 alias lsa="ls -a"
-alias lt="eza --tree --level=2 --long --git"
+alias lt="eza --tree --level=2 --long --git --icons"
 alias lta="lt -a"
 alias lg="lazygit"
 alias ld="lazydocker"

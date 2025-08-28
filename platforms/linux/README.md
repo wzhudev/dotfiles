@@ -9,7 +9,7 @@ Use Homebrew(Linuxbrew) to install dependencies:
 And then install the required packages:
 
 ```bash
-brew install zoxide fzf gh lazygit mise starship stow eza tmux
+brew install zoxide fzf gh lazygit mise starship stow eza tmux neovim
 brew install zsh-autosuggestions zsh-syntax-highlighting
 ```
 
