@@ -1,5 +1,11 @@
 # Linux / WSL
 
+Change default shell to Zsh:
+
+```bash
+chsh -s $(which zsh)
+```
+
 Use Homebrew(Linuxbrew) to install dependencies:
 
 ```shell
@@ -9,14 +15,8 @@ Use Homebrew(Linuxbrew) to install dependencies:
 And then install the required packages:
 
 ```bash
-brew install zoxide fzf gh lazygit mise starship stow eza tmux
-brew install zsh-autosuggestions zsh-syntax-highlighting
-```
-
-Change default shell to Zsh:
-
-```bash
-chsh -s $(which zsh)
+brew install zoxide fzf gh starship stow eza lazygit uv go nvm neovim tmux btop
+brew install zsh-autosuggestions zsh-syntax-highlighting 
 ```
 
 Login to GitHub and download dotfiles:
@@ -37,7 +37,7 @@ Add custom `.zshrc` configuration by sourcing it:
 ```bash
 echo "source ~/.dotfiles/zsh/.zshrc" >> ~/.zshrc
 
-resource
+source ~/.zshrc
 ```
 
 Use starship plain text symbols preset:
@@ -46,6 +46,11 @@ Use starship plain text symbols preset:
 starship preset plain-text-symbols -o ~/.config/starship.toml
 ```
 
+Install gvm:
+
+```bash
+bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+```
 ## Miscellaneous
 
 If a proxy is required, use the following command to set it up:

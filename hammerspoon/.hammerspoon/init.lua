@@ -12,7 +12,10 @@ local function launchOrNextWindow(name, showName)
 	local appName = hs.application.frontmostApplication():name()
 
 	if findName ~= appName then
-		hs.application.launchOrFocus(name)
+		local success = hs.application.launchOrFocus(name)
+		if not success then
+			hs.notify.new({ title = "Hammerspoon", subTitle = "Cannot launch " .. name .. "! Is it installed?" }):send()
+		end
 	else
 		local wlist = getWinList(findName)
 		local wcount = #wlist
@@ -32,8 +35,12 @@ hs.hotkey.bind({ "alt" }, "e", function()
 	launchOrNextWindow("Google Chrome")
 end)
 
-hs.hotkey.bind({ "alt" }, "v", function()
-	launchOrNextWindow("Visual Studio Code", "Code")
+hs.hotkey.bind({ "alt" }, "w", function()
+	launchOrNextWindow("WeChat")
+end)
+
+hs.hotkey.bind({ "alt" }, "c", function()
+	launchOrNextWindow("Cursor")
 end)
 
 hs.hotkey.bind({ "alt" }, "g", function()
@@ -41,20 +48,8 @@ hs.hotkey.bind({ "alt" }, "g", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
-	launchOrNextWindow("Ghostty")
+	launchOrNextWindow("Terminal")
 end)
-
-hs.hotkey.bind({ "alt" }, "w", function()
-	launchOrNextWindow("WeChat")
-end)
-
--- #region ByteDance
-
-hs.hotkey.bind({ "alt" }, "k", function()
-	launchOrNextWindow("Lark")
-end)
-
--- #endregion
 
 -- watch config file change and auto reload
 
@@ -64,6 +59,7 @@ local function reloadConfig()
 	configFileWatcher:stop()
 	configFileWatcher = nil
 	hs.reload()
+
 	hs.notify.new({ title = "Hammerspoon", subTitle = "Configuration reloaded" }):send()
 end
 

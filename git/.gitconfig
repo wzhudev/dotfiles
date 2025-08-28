@@ -1,5 +1,5 @@
 [core]
-	editor = vim
+	editor = code --wait
 	quotepath = false
 
 [alias]
@@ -17,7 +17,7 @@
     show-merge = "!sh -c 'merge=$(git find-merge $0 $1) && [ -n \"$merge\" ] && git show $merge'"
 
 [user]
-	name = Wenzhao Hu
+	name = Evan
 	email = 12122021+wzhudev@users.noreply.github.com
 
 [filter "lfs"]
