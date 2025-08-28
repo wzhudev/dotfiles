@@ -32,6 +32,10 @@ hs.hotkey.bind({ "alt" }, "e", function()
 	launchOrNextWindow("Google Chrome")
 end)
 
+hs.hotkey.bind({ "alt" }, "d", function()
+	launchOrNextWindow("Comet")
+end)
+
 hs.hotkey.bind({ "alt" }, "v", function()
 	launchOrNextWindow("Visual Studio Code", "Code")
 end)
@@ -41,11 +45,15 @@ hs.hotkey.bind({ "alt" }, "g", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
-	launchOrNextWindow("Ghostty")
+	launchOrNextWindow("Terminal")
 end)
 
 hs.hotkey.bind({ "alt" }, "w", function()
 	launchOrNextWindow("WeChat")
+end)
+
+hs.hotkey.bind({ "alt" }, "n", function()
+	launchOrNextWindow("Google Keep")
 end)
 
 -- #region ByteDance
