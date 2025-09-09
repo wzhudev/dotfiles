@@ -52,6 +52,10 @@ hs.hotkey.bind({ "alt" }, "w", function()
 	launchOrNextWindow("WeChat")
 end)
 
+hs.hotkey.bind({ "alt" }, "n", function()
+	launchOrNextWindow("Google Keep")
+end)
+
 -- #region ByteDance
 
 hs.hotkey.bind({ "alt" }, "k", function()
