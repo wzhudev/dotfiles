@@ -58,6 +58,10 @@ hs.hotkey.bind({ "alt" }, "k", function()
 	launchOrNextWindow("Lark")
 end)
 
+hs.hotkey.bind({ "alt" }, "c", function()
+	launchOrNextWindow("Cloud IDE")
+end)
+
 -- #endregion
 
 -- watch config file change and auto reload
