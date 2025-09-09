@@ -36,10 +36,6 @@ hs.hotkey.bind({ "alt" }, "v", function()
 	launchOrNextWindow("Visual Studio Code", "Code")
 end)
 
-hs.hotkey.bind({ "alt" }, "c", function()
-	launchOrNextWindow("Cursor")
-end)
-
 hs.hotkey.bind({ "alt" }, "g", function()
 	launchOrNextWindow("Finder")
 end)
