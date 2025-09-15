@@ -48,10 +48,6 @@ hs.hotkey.bind({ "alt" }, "t", function()
 	launchOrNextWindow("Ghostty")
 end)
 
-hs.hotkey.bind({ "alt" }, "s", function()
-	launchOrNextWindow("Safari")
-end)
-
 hs.hotkey.bind({ "alt" }, "w", function()
 	launchOrNextWindow("WeChat")
 end)
