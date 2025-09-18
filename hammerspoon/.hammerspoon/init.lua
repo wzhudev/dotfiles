@@ -29,7 +29,8 @@ local function launchOrNextWindow(name, showName)
 end
 
 hs.hotkey.bind({ "alt" }, "e", function()
-	launchOrNextWindow("Google Chrome")
+	-- launchOrNextWindow("Google Chrome")
+	launchOrNextWindow("Comet")
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
@@ -45,7 +46,7 @@ hs.hotkey.bind({ "alt" }, "g", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
-	launchOrNextWindow("Terminal")
+	launchOrNextWindow("Ghostty")
 end)
 
 hs.hotkey.bind({ "alt" }, "f", function()
