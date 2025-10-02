@@ -6,9 +6,9 @@ export NODE_OPTIONS="--max-old-space-size=8192"
 
 # aliases
 alias lg="lazygit"
-alias ls="eza -lh --group-directories-first --icons"
+alias ls="eza -lh --group-directories-first"
 alias lsa="ls -a"
-alias lt="eza --tree --level=2 --long --git --icons"
+alias lt="eza --tree --level=2 --long --git"
 alias lta="lt -a"
 alias cd="z"
 alias resource="source ~/.zshrc"

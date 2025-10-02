@@ -1,6 +1,6 @@
-font-family = Monaspace Neon NF
+font-family = monaco
 font-size = 15
-theme = TokyoNight
+theme = TokyoNight Night
 macos-option-as-alt = true
 window-padding-x = 4
 window-padding-balance = true
