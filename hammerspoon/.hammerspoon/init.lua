@@ -36,6 +36,14 @@ hs.hotkey.bind({ "alt" }, "d", function()
 	launchOrNextWindow("Comet")
 end)
 
+hs.hotkey.bind({ "alt" }, "c", function()
+	launchOrNextWindow("Cursor")
+end)
+
+hs.hotkey.bind({ "alt" }, "f", function()
+	launchOrNextWindow("Figma")
+end)
+
 hs.hotkey.bind({ "alt" }, "v", function()
 	launchOrNextWindow("Visual Studio Code", "Code")
 end)
