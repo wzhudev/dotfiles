@@ -61,7 +61,7 @@ hs.hotkey.bind({ "alt" }, "w", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "n", function()
-	launchOrNextWindow("Google Keep")
+	launchOrNextWindow("Notion")
 end)
 
 -- #region ByteDance

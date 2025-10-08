@@ -15,7 +15,8 @@ Use Homebrew(Linuxbrew) to install dependencies:
 And then install the required packages:
 
 ```bash
-brew install zoxide fzf gh mise starship stow eza tmux zsh-autosuggestions zsh-syntax-highlighting 
+brew install zoxide fzf gh starship stow eza tmux zsh-autosuggestions zsh-syntax-highlighting 
+brew install nvm uv go
 ```
 
 Login to GitHub and download dotfiles:
