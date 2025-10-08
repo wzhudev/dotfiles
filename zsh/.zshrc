@@ -6,6 +6,7 @@ export NODE_OPTIONS="--max-old-space-size=8192"
 
 # aliases
 alias lg="lazygit"
+alias ld="lazydocker"
 alias ls="eza -lh --group-directories-first"
 alias lsa="ls -a"
 alias lt="eza --tree --level=2 --long --git"
