@@ -64,13 +64,9 @@ hs.hotkey.bind({ "alt" }, "n", function()
 	launchOrNextWindow("Notion")
 end)
 
--- #region ByteDance
-
 hs.hotkey.bind({ "alt" }, "k", function()
-	launchOrNextWindow("Lark")
+	launchOrNextWindow("Slack")
 end)
-
--- #endregion
 
 -- watch config file change and auto reload
 
