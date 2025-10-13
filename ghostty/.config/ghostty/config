@@ -1,6 +1,6 @@
 font-family = Monaspace Neon NF, menlo, monospace
 font-size = 15
-theme = TokyoNight Night
+theme = dark:GitHub Dark Default, light:GitHub Light Default
 macos-option-as-alt = true
 window-padding-x = 4
 window-padding-balance = true
