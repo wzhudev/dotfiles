@@ -12,7 +12,10 @@ local function launchOrNextWindow(name, showName)
 	local appName = hs.application.frontmostApplication():name()
 
 	if findName ~= appName then
-		hs.application.launchOrFocus(name)
+		local success = hs.application.launchOrFocus(name)
+		if not success then
+			hs.notify.new({ title = "Hammerspoon", subTitle = "Cannot launch " .. name .. "! Is it installed?" }):send()
+		end
 	else
 		local wlist = getWinList(findName)
 		local wcount = #wlist
@@ -64,9 +67,17 @@ hs.hotkey.bind({ "alt" }, "n", function()
 	launchOrNextWindow("Notion")
 end)
 
+-- hs.hotkey.bind({ "alt" }, "k", function()
+-- 	launchOrNextWindow("Slack")
+-- end)
+
+-- # region bytedance
+
 hs.hotkey.bind({ "alt" }, "k", function()
-	launchOrNextWindow("Slack")
+	launchOrNextWindow("Lark")
 end)
+
+-- # endregion bytedance
 
 -- watch config file change and auto reload
 
@@ -76,6 +87,7 @@ local function reloadConfig()
 	configFileWatcher:stop()
 	configFileWatcher = nil
 	hs.reload()
+
 	hs.notify.new({ title = "Hammerspoon", subTitle = "Configuration reloaded" }):send()
 end
 
