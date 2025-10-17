@@ -11,5 +11,5 @@ stow hammerspoon
 Install applications:
 
 ```bash
-brew install --cask hammerspoon hiddenbar monitorcontrol visual-studio-code figma raycast cursor docker
+brew install --cask hammerspoon hiddenbar monitorcontrol visual-studio-code raycast
 ```

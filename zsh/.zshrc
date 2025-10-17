@@ -2,11 +2,9 @@
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 export PATH="/home/wzhudev/.local/bin:$PATH"
-export NODE_OPTIONS="--max-old-space-size=8192"
 
 # aliases
 alias lg="lazygit"
-alias ld="lazydocker"
 alias ls="eza -lh --group-directories-first --icons"
 alias lsa="ls -a"
 alias lt="eza --tree --level=2 --long --git --icons"
@@ -15,10 +13,6 @@ alias cd="z"
 alias resource="source ~/.zshrc"
 alias activate="source .venv/bin/activate"
 alias gfa="git fetch --all"
-alias grc="git rebase --continue"
-alias gsu="git submodule update"
-alias gsui="git submodule update --init --recursive"
-alias gsur="git submodule sync"
 
 # proxy
 function proxy() {
@@ -30,7 +24,6 @@ function proxy() {
   export https_proxy="http://127.0.0.1:7890"
   export http_proxy="http://127.0.0.1:7890"
 }
-
 function unproxy() {
   unset ALL_PROXY
   unset HTTPS_PROXY
