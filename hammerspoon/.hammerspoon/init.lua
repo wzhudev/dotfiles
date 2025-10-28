@@ -51,6 +51,7 @@ hs.hotkey.bind({ "alt" }, "n", function()
 	launchOrNextWindow("Notion")
 end)
 
+-- Terminal
 hs.hotkey.bind({ "alt" }, "t", function()
 	launchOrNextWindow("Ghostty")
 end)
@@ -61,6 +62,10 @@ end)
 
 hs.hotkey.bind({ "alt" }, "s", function()
 	launchOrNextWindow("Slack")
+end)
+
+hs.hotkey.bind({ "alt" }, "o", function()
+	launchOrNextWindow("Microsoft Outlook")
 end)
 
 -- watch config file change and auto reload
