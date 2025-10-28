@@ -35,16 +35,8 @@ hs.hotkey.bind({ "alt" }, "e", function()
 	launchOrNextWindow("Google Chrome")
 end)
 
-hs.hotkey.bind({ "alt" }, "d", function()
-	launchOrNextWindow("Comet")
-end)
-
 hs.hotkey.bind({ "alt" }, "c", function()
 	launchOrNextWindow("Cursor")
-end)
-
-hs.hotkey.bind({ "alt" }, "f", function()
-	launchOrNextWindow("Figma")
 end)
 
 hs.hotkey.bind({ "alt" }, "v", function()
@@ -56,28 +48,20 @@ hs.hotkey.bind({ "alt" }, "g", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
-	launchOrNextWindow("Terminal")
+	launchOrNextWindow("Ghostty")
 end)
 
 hs.hotkey.bind({ "alt" }, "w", function()
 	launchOrNextWindow("WeChat")
 end)
 
-hs.hotkey.bind({ "alt" }, "n", function()
-	launchOrNextWindow("Notion")
+hs.hotkey.bind({ "alt" }, "s", function()
+	launchOrNextWindow("Slack")
 end)
 
--- hs.hotkey.bind({ "alt" }, "k", function()
--- 	launchOrNextWindow("Slack")
--- end)
-
--- # region bytedance
-
-hs.hotkey.bind({ "alt" }, "k", function()
-	launchOrNextWindow("Lark")
+hs.hotkey.bind({ "alt" }, "o", function()
+	launchOrNextWindow("Obsidian")
 end)
-
--- # endregion bytedance
 
 -- watch config file change and auto reload
 

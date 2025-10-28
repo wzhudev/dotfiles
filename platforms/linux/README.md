@@ -15,7 +15,7 @@ Use Homebrew(Linuxbrew) to install dependencies:
 And then install the required packages:
 
 ```bash
-brew install zoxide fzf gh starship stow eza zsh-autosuggestions zsh-syntax-highlighting lazygit mise uv
+brew install zoxide fzf gh starship stow eza zsh-autosuggestions zsh-syntax-highlighting lazygit uv go nvm
 ```
 
 Login to GitHub and download dotfiles:
@@ -43,6 +43,12 @@ Use starship plain text symbols preset:
 
 ```bash
 starship preset plain-text-symbols -o ~/.config/starship.toml
+```
+
+Install gvm:
+
+```bash
+bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 ```
 
 ## Miscellaneous
