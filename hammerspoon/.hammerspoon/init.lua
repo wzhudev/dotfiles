@@ -47,6 +47,10 @@ hs.hotkey.bind({ "alt" }, "g", function()
 	launchOrNextWindow("Finder")
 end)
 
+hs.hotkey.bind({ "alt" }, "n", function()
+	launchOrNextWindow("Notion")
+end)
+
 hs.hotkey.bind({ "alt" }, "t", function()
 	launchOrNextWindow("Ghostty")
 end)
@@ -57,10 +61,6 @@ end)
 
 hs.hotkey.bind({ "alt" }, "s", function()
 	launchOrNextWindow("Slack")
-end)
-
-hs.hotkey.bind({ "alt" }, "o", function()
-	launchOrNextWindow("Obsidian")
 end)
 
 -- watch config file change and auto reload
