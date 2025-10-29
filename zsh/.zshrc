@@ -24,6 +24,7 @@ function proxy() {
   export https_proxy="http://127.0.0.1:7890"
   export http_proxy="http://127.0.0.1:7890"
 }
+
 function unproxy() {
   unset ALL_PROXY
   unset HTTPS_PROXY

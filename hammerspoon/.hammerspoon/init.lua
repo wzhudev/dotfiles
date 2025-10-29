@@ -39,21 +39,17 @@ hs.hotkey.bind({ "alt" }, "c", function()
 	launchOrNextWindow("Cursor")
 end)
 
-hs.hotkey.bind({ "alt" }, "v", function()
-	launchOrNextWindow("Visual Studio Code", "Code")
-end)
+-- hs.hotkey.bind({ "alt" }, "v", function()
+-- 	launchOrNextWindow("Visual Studio Code", "Code")
+-- end)
 
 hs.hotkey.bind({ "alt" }, "g", function()
 	launchOrNextWindow("Finder")
 end)
 
-hs.hotkey.bind({ "alt" }, "n", function()
-	launchOrNextWindow("Notion")
-end)
-
 -- Terminal
 hs.hotkey.bind({ "alt" }, "t", function()
-	launchOrNextWindow("Ghostty")
+	launchOrNextWindow("Terminal")
 end)
 
 hs.hotkey.bind({ "alt" }, "w", function()
@@ -62,10 +58,6 @@ end)
 
 hs.hotkey.bind({ "alt" }, "s", function()
 	launchOrNextWindow("Slack")
-end)
-
-hs.hotkey.bind({ "alt" }, "o", function()
-	launchOrNextWindow("Microsoft Outlook")
 end)
 
 -- watch config file change and auto reload

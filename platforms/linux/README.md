@@ -15,7 +15,8 @@ Use Homebrew(Linuxbrew) to install dependencies:
 And then install the required packages:
 
 ```bash
-brew install zoxide fzf gh starship stow eza zsh-autosuggestions zsh-syntax-highlighting lazygit uv go nvm
+brew install zoxide fzf gh starship stow eza lazygit uv go nvm
+brew install zsh-autosuggestions zsh-syntax-highlighting 
 ```
 
 Login to GitHub and download dotfiles:
@@ -50,7 +51,6 @@ Install gvm:
 ```bash
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 ```
-
 ## Miscellaneous
 
 If a proxy is required, use the following command to set it up:

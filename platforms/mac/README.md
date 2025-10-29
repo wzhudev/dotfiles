@@ -11,7 +11,7 @@ stow hammerspoon
 Install applications:
 
 ```bash
-brew install --cask hammerspoon hiddenbar monitorcontrol visual-studio-code raycast
+brew install --cask hammerspoon hiddenbar monitorcontrol cursor raycast
 ```
 
 Enable continuous key repeat (disable press-and-hold for accented characters):
