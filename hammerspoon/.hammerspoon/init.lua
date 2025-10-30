@@ -47,6 +47,10 @@ hs.hotkey.bind({ "alt" }, "g", function()
 	launchOrNextWindow("Finder")
 end)
 
+hs.hotkey.bind({ "alt" }, "d", function()
+	launchOrNextWindow("Excalidraw")
+end)
+
 -- Terminal
 hs.hotkey.bind({ "alt" }, "t", function()
 	launchOrNextWindow("Terminal")
