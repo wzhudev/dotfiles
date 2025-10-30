@@ -60,6 +60,14 @@ hs.hotkey.bind({ "alt" }, "s", function()
 	launchOrNextWindow("Slack")
 end)
 
+hs.hotkey.bind({ "alt" }, "o", function()
+	launchOrNextWindow("Microsoft Outlook")
+end)
+
+hs.hotkey.bind({ "alt" }, "m", function()
+	launchOrNextWindow("Microsoft Teams")
+end)
+
 -- watch config file change and auto reload
 
 local configFileWatcher
