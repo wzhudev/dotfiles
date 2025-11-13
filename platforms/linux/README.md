@@ -15,7 +15,7 @@ Use Homebrew(Linuxbrew) to install dependencies:
 And then install the required packages:
 
 ```bash
-brew install zoxide fzf gh starship stow eza lazygit uv go nvm neovim tmux btop
+brew install zoxide fzf gh starship stow eza lazygit uv go nvm tmux
 brew install zsh-autosuggestions zsh-syntax-highlighting 
 ```
 
