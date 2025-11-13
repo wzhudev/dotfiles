@@ -1,6 +1,6 @@
 # Linux / WSL
 
-Change default shell to Zsh:
+Activate Zsh and change default shell to Zsh (You may need to install Zsh first):
 
 ```bash
 chsh -s $(which zsh)
@@ -46,11 +46,6 @@ Use starship plain text symbols preset:
 starship preset plain-text-symbols -o ~/.config/starship.toml
 ```
 
-Install gvm:
-
-```bash
-bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
-```
 ## Miscellaneous
 
 If a proxy is required, use the following command to set it up:
