@@ -35,6 +35,7 @@ cp ~/.dotfiles/git/.gitconfig ~/.gitconfig
 Add custom `.zshrc` configuration by sourcing it:
 
 ```bash
+echo "eval \"\$($(which brew) shellenv)\"" >> ~/.zshrc
 echo "source ~/.dotfiles/zsh/.zshrc" >> ~/.zshrc
 
 source ~/.zshrc
