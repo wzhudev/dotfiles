@@ -48,7 +48,7 @@ hs.hotkey.bind({ "alt" }, "g", function()
 end)
 
 hs.hotkey.bind({ "alt" }, "t", function()
-	launchOrNextWindow("Terminal")
+	launchOrNextWindow("Ghostty")
 end)
 
 -- watch config file change and auto reload
