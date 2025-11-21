@@ -39,6 +39,10 @@ hs.hotkey.bind({ "alt" }, "w", function()
 	launchOrNextWindow("WeChat")
 end)
 
+hs.hotkey.bind({ "alt" }, "o", function()
+	launchOrNextWindow("Microsoft Outlook")
+end)
+
 hs.hotkey.bind({ "alt" }, "c", function()
 	launchOrNextWindow("Cursor")
 end)
